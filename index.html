@@ -5,30 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Password Generator</title>
+    <link rel="stylesheet" href="./dist/output.css">
 </head>
-<body>
-    <main>
-        <div>
-            <ul>
-                <li>
+<body class=" min-h-full flex items-center justify-center m-0">
+    
+    <main class="flex justify-center font-extrabold text-2xl px-10 py-10 h-full w-full">
+        <div class="border-black border-solid bg-amber-900 shadow-xl shadow-blue-500/40 md:shadow-indigo-500/40 rounded rounded-t-xl">
+            <div class="border-black border-solid bg-amber-900 shadow-2xl shadow-blue-500/40 md:shadow-indigo-500/40">
+          <h1 class="px-5 bg-sky-950">PASSWORD GENERATOR</h1>
+           <p class=" px-5 pb-5 bg-sky-950">Tap to create a random password</p></div>
+            <ul> 
+                <li class=" px-10 pb-5 hover:bg-gray-200 rounded border">
                     <input type="radio" name="pwd" id="include">
-                    <label for="include">include special charaters</label>
+                    <label for="include">Include special characters</label>
                 </li>
-                <li>
+                <li class=" px-10 pb-5 border rounded hover:bg-gray-200">
                     <input type="radio" name="pwd" id="exclude">
-                    <label for="exclude">exclude special charaters</label>
+                    <label for="exclude">Exclude special characters</label>
                 </li>
-                <li>
+                <li class=" px-10 pb-5 border hover:bg-gray-200 rounded">
                     <p id="password"></p>
                 </li>
-                <li>
-                    <input type="button" value="generate password">
-                </li>
+                <li class=" px-10 bg-sky-950 rounded">
+                <button class="bg-sky-950 hover:bg-gray-200 rounded" id="btn">Generate Password</button>
+            </li>
             </ul>
         </div>
-        <div>
-
-        </div>
     </main>
+    <script src="./index.js"></script>
 </body>
 </html>
