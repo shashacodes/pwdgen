@@ -16,7 +16,7 @@
           let characters = strings[Numbers];
 
          if (includeSpecialChars.checked) {
-          strings;
+          password += characters
          }
        else if (excludeSpecialChars.checked) {
         Numbers = Math.floor(Math.random() * noSpecial.length);
