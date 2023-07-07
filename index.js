@@ -11,7 +11,7 @@
         const passwordLength = 8;
         let password = '';
 
-        for (let x = 0; x < passwordLength; x++) {
+        for (let x = 0; x <= passwordLength; x++) {
           let Numbers = Math.floor(Math.random() * strings.length);
           let characters = strings[Numbers];
 
