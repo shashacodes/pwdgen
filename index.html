@@ -7,15 +7,15 @@
     <title>Password Generator</title>
     <link rel="stylesheet" href="./dist/output.css">
 </head>
-<body class=" min-h-full flex items-center text-white justify-center m-0" style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkqicdBC0MFYPj9kx4xvkERHL25sWqNsfoxg&usqp=CAU);">
+<body class=" min-h-full flex items-center text-white justify-center m-0">
     
     <main class="flex justify-center gap-5  px-10 py-10 h-full w-full">
-        <div class=" border-solid shadow-xl shadow-blue-500/40 md:shadow-indigo-500/40  rounded rounded-t-xl">
+        <div>
             <div class="flex flex-col bg-gray-600 p-4 border-solid  w-50% shadow-2xl shadow-blue-500/40 md:shadow-indigo-500/40">
           <h1 class="px-5 text-4xl mb-5">SHARON'S PASSWORD GENERATOR</h1>
            <p class=" px-5 text-2xl ">Tap to create a random password</p>
         </div>
-            <ul class="pt-5"> 
+            <ul class="pt-5 "> 
                 <li class="  px-10  py-5  text-2xl border bg-gray-500 rounded hover:bg-gray-600 h-[80px]">
                     <input type="radio" name="pwd" id="include">
                     <label for="include">Include special characters</label>
@@ -28,8 +28,8 @@
                     <p id="password"></p>
                 </li>
             </ul>
-            <div class="flex rounded items-center justify-center py-5">
-                <button class="bg-gray-600 hover:bg-gray-500 rounded px-10 text-4xl h-[80px]" id="btn">Generate Password</button>
+            <div class="flex rounded items-center justify-center py-5 ">
+                <button class="bg-gray-600 hover:bg-gray-500 rounded px-10 text-4xl h-[80px] shadow-2xl shadow-blue-500/40 md:shadow-indigo-500/40" id="btn">Generate Password</button>
             </div>
         </div>
     </main>
